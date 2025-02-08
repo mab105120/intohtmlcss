@@ -1,0 +1,1 @@
+This repo is used to introduce basic HTML and CSS concepts
