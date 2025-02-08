@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+
+<body>
+    <!-- headers -->
+    <section>
+        <h1>H1 Title</h1>
+        <h2>H2 Title</h2>
+        <h3>H3 Title</h3>
+    </section>
+    <hr>
+    <!-- hyperlinks -->
+    <section>
+        <p>Click <a href="http://www.google.com" target="_blank">here</a> to go to google</p>
+    </section>
+    <hr>
+    <!-- images -->
+    <section>
+        <h1>This is UTD's logo:</h1>
+        <a href="utd-logo.jpg" download>
+            <img width="300px" height="200px" src="img/utd-logo.jpg">
+        </a>
+    </section>
+    <hr>
+    <!-- lists -->
+    <section>
+        <p>This is a list of my favorite fruits:</p>
+        <menu>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+        </menu>
+        <p>this is my list of favorit fruits in order:</p>
+        <ol type="A">
+            <li>Orange</li>
+            <li>Apple</li>
+            <li>Banana</li>
+        </ol>
+    </section>
+    <hr>
+    <!-- tables -->
+    <section>
+        <h1>This is a table</h1>
+        <table>
+            <tr>
+                <td>Element</td>
+                <td><img src="img/compatible_chrome.png"></td>
+                <td><img src="img/compatible_firefox.png"></td>
+                <td><img src="img/compatible_edge.png"></td>
+                <td><img src="img/compatible_opera.png"></td>
+            </tr>
+            <tr>
+                <td>hr</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <!-- forms -->
+    <section>
+        <h1>This is a form</h1>
+        <form action="form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="0" max="100">
+            <br>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" min="1" max="10">
+            <br>
+            <label for="tel">Telephone:</label>
+            <input type="tel" id="tel" name="tel">
+            <br>
+            <label for="url">Website:</label>
+            <input type="url" id="url" name="url">
+            <br>
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <hr>
+</body>
+
+</html>
